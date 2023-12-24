@@ -70,8 +70,8 @@ def create_image(text):
     image_size = (800, 400)
     background_color = (255, 255, 255)
     font_path = 'JOJO-R.otf'
-    first_char_font_size = 260
-    rest_font_size = 100
+    first_char_font_size = 180
+    rest_font_size = 60
 
     main_font = ImageFont.truetype(font_path, rest_font_size)
     first_char_font = ImageFont.truetype(font_path, first_char_font_size)
